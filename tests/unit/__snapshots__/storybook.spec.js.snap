@@ -1,0 +1,123 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots Task Archived 1`] = `
+<div
+  class="list-item"
+  class:="task.state"
+>
+  <label
+    class="checkbox"
+    for=""
+  >
+    <input
+      disabled="disabled"
+      name="checked"
+      type="checkbox"
+    />
+     
+    <span
+      class="checkbox-custom"
+    />
+  </label>
+   
+  <div
+    class="title"
+  >
+    <input
+      placeholder="Input title"
+      readonly="readonly"
+      type="text"
+    />
+  </div>
+   
+  <div
+    class="actions"
+  >
+    <!---->
+  </div>
+</div>
+`;
+
+exports[`Storyshots Task Default 1`] = `
+<div
+  class="list-item"
+  class:="task.state"
+>
+  <label
+    class="checkbox"
+    for=""
+  >
+    <input
+      disabled="disabled"
+      name="checked"
+      type="checkbox"
+    />
+     
+    <span
+      class="checkbox-custom"
+    />
+  </label>
+   
+  <div
+    class="title"
+  >
+    <input
+      placeholder="Input title"
+      readonly="readonly"
+      type="text"
+    />
+  </div>
+   
+  <div
+    class="actions"
+  >
+    <a>
+      <span
+        class="icon-star"
+      />
+    </a>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Task Pinned 1`] = `
+<div
+  class="list-item"
+  class:="task.state"
+>
+  <label
+    class="checkbox"
+    for=""
+  >
+    <input
+      disabled="disabled"
+      name="checked"
+      type="checkbox"
+    />
+     
+    <span
+      class="checkbox-custom"
+    />
+  </label>
+   
+  <div
+    class="title"
+  >
+    <input
+      placeholder="Input title"
+      readonly="readonly"
+      type="text"
+    />
+  </div>
+   
+  <div
+    class="actions"
+  >
+    <a>
+      <span
+        class="icon-star"
+      />
+    </a>
+  </div>
+</div>
+`;
