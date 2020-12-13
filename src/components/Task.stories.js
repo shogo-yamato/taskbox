@@ -6,18 +6,19 @@ export default {
   title: "Task",
   // 定義するコンポーネント
   component: Task,
-  // Storyを構成するためのデータ、Storybookには表示させない
+  // Storyとして読み込まないファイル
   excludeStories: /.*.Data$/,
 };
 
-// 各ストーリーのmethodsで呼び出すための関数たち
+// 各Storyのmethodsで呼び出す関数たち
 // Storybookのactionsパネルで表示される
+// これ自体はStoryではないためStoryとしては読み込まない
 export const actionsData = {
   onPinTask: action("pin-task"),
   onArchiveTask: action("archive-task"),
 };
 
-// ストーリーを定義するためのテンプレート
+// Storyを定義するためのテンプレート
 // Stateless Functional Component https://vuejs.org/v2/guide/render-function.html#Functional-Components
 const Template = (args, { argTypes }) => ({
   components: { Task },
