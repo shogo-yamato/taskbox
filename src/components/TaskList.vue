@@ -1,4 +1,5 @@
 <template>
+  <!-- vuexで管理しているstate(tasks)を、見た目だけのコンポーネント(PureTaskList)に送り込む -->
   <PureTaskList
     :tasks="tasks"
     v-on="$listeners"
@@ -8,6 +9,8 @@
 </template>
 
 <script>
+// このコンポーネントは"PureTaskList"のコンテナ
+// 中身(PureTaskList)があってこそ機能するもの
 import PureTaskList from "./PureTaskList";
 import { mapState, mapActions } from "vuex";
 
