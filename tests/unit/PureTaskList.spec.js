@@ -1,14 +1,14 @@
 // TaskList用のテストファイル
 import Vue from "vue";
-import TaskList from "../../src/components/TaskList.vue";
-import { WithPinnedTasks } from "../../src/components/TaskList.stories";
+import PureTaskList from "../../src/components/PureTaskList.vue";
+import { WithPinnedTasks } from "../../src/components/PureTaskList.stories";
 
 // ピン留めされたタスクが最初に来ることを確認するテスト
 it("renders pinned tasks at the start of the list", () => {
-  // TaskListを生成
-  const Constructor = Vue.extend(TaskList);
+  // PureTaskListを生成
+  const Constructor = Vue.extend(PureTaskList);
   const vm = new Constructor({
-    // ...TaskList.stories.js > WithPinnedTasks の args を再利用
+    // ...PureTaskList.stories.js > WithPinnedTasks の args を再利用
     propsData: WithPinnedTasks.args,
   }).$mount();
   // .list-itemの1つ目 かつ .TASK_PINNED の要素を選択する

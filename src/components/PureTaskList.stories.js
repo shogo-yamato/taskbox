@@ -1,22 +1,22 @@
-import TaskList from "./TaskList";
+import PureTaskList from "./PureTaskList";
 // Task.stories.jsのいろんなところを再利用することで楽できる
 import * as TaskStories from "./Task.stories";
 
 export default {
-  component: TaskList,
-  title: "TaskList",
+  component: PureTaskList,
+  title: "PureTaskList",
   // 各Storyをwrapする要素
   decorators: [() => '<div style="padding: 3rem;"><story /></div>'],
 };
 
 // 各StoryのTemplate
 const Template = (args, { argTypes }) => ({
-  components: { TaskList },
+  components: { PureTaskList },
   props: Object.keys(argTypes),
   // Task.stories.jsのactionsを再利用
   methods: TaskStories.actionsData,
   template:
-    '<TaskList v-bind="$props" @pin-task="onPinTask" @archive-task="onArchiveTask" />',
+    '<PureTaskList v-bind="$props" @pin-task="onPinTask" @archive-task="onArchiveTask" />',
 });
 
 // Template関数のコピーをもとにStory "Default"を作成
