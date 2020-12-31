@@ -1,5 +1,6 @@
 <template>
   <div class="list-items">
+    <!-- Taskの数や状態によってDOMを出し分ける -->
     <template v-if="loading">
       <div v-for="n in 6" :key="n" class="loading-item">
         <span class="glow-checkbox" />

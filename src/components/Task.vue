@@ -28,6 +28,7 @@ export default {
       type: Object,
       required: true,
       default: () => ({ id: "", state: "", title: "" }),
+      // Tasks.stories.js で各Storyから渡されてくるprops
       validator: (task) => ["id", "state", "title"].every((key) => key in task),
     },
   },
