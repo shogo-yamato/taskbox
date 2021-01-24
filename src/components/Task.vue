@@ -9,8 +9,7 @@
         type="text"
         :value="task.title"
         readonly
-        placeholder="Input title"
-        style="text-overflow: ellipsis"
+        placeholder="タイトルを入力してください"
       />
     </div>
     <div class="actions">
@@ -23,20 +22,19 @@
 
 <script>
 export default {
-  name: "Task",
+  name: 'Task',
   props: {
     task: {
       type: Object,
       required: true,
-      default: () => ({ id: "", state: "", title: "" }),
-      // Tasks.stories.js で各Storyから渡されてくるprops
-      validator: (task) => ["id", "state", "title"].every((key) => key in task),
-    },
+      default: () => ({ id: '', state: '', title: '' }),
+      validator: task => ['id', 'state', 'title'].every(key => key in task)
+    }
   },
   computed: {
     isChecked() {
-      return this.task.state === "TASK_ARCHIVED";
-    },
-  },
-};
+      return this.task.state === 'TASK_ARCHIVED'
+    }
+  }
+}
 </script>
