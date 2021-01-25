@@ -10,6 +10,7 @@
         :value="task.title"
         readonly
         placeholder="タイトルを入力してください"
+        style="text-overflow: ellipsis"
       />
     </div>
     <div class="actions">
