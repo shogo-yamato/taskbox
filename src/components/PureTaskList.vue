@@ -31,7 +31,7 @@
 </template>
 
 <script>
-// このコンポーネントは"TaskList"(後述)の中身
+// このコンポーネントは"TaskList"(前述)の中身
 // テストしやすくするため、stateに頼らない見た目だけのコンポーネントとして分離
 import Task from './Task'
 export default {
