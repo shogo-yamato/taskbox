@@ -1,5 +1,5 @@
-// import Task from './Task'
-// import { action } from '@storybook/addon-actions'
+// import Task from './Task' // 元となるVueコンポーネントをimport
+// import { action } from '@storybook/addon-actions' // Storybookのactionsパネルで使うヤツ
 
 // // export defaultで各Storyの親となるコンポーネントを定義
 // export default {
