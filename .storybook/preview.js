@@ -1,6 +1,2 @@
-// Storybook AppにプロジェクトのCSSを適用
-import "../src/index.css";
-
-// export const parameters = {
-//   actions: { argTypesRegex: "^on[A-Z].*" },
-// };
+// Storybookのプレビュー画面にプロジェクトのCSSを適用
+import '../src/index.css'

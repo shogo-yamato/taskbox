@@ -45,7 +45,6 @@ exports[`Storyshots PureInboxScreen Default 1`] = `
           <input
             placeholder="Input title"
             readonly="readonly"
-            style="text-overflow: ellipsis;"
             type="text"
           />
         </div>
@@ -83,7 +82,6 @@ exports[`Storyshots PureInboxScreen Default 1`] = `
           <input
             placeholder="Input title"
             readonly="readonly"
-            style="text-overflow: ellipsis;"
             type="text"
           />
         </div>
@@ -121,7 +119,6 @@ exports[`Storyshots PureInboxScreen Default 1`] = `
           <input
             placeholder="Input title"
             readonly="readonly"
-            style="text-overflow: ellipsis;"
             type="text"
           />
         </div>
@@ -159,7 +156,6 @@ exports[`Storyshots PureInboxScreen Default 1`] = `
           <input
             placeholder="Input title"
             readonly="readonly"
-            style="text-overflow: ellipsis;"
             type="text"
           />
         </div>
@@ -197,7 +193,6 @@ exports[`Storyshots PureInboxScreen Default 1`] = `
           <input
             placeholder="Input title"
             readonly="readonly"
-            style="text-overflow: ellipsis;"
             type="text"
           />
         </div>
@@ -235,7 +230,6 @@ exports[`Storyshots PureInboxScreen Default 1`] = `
           <input
             placeholder="Input title"
             readonly="readonly"
-            style="text-overflow: ellipsis;"
             type="text"
           />
         </div>
@@ -1022,7 +1016,6 @@ exports[`Storyshots Task Long Title 1`] = `
     <input
       placeholder="Input title"
       readonly="readonly"
-      style="text-overflow: ellipsis;"
       type="text"
     />
   </div>

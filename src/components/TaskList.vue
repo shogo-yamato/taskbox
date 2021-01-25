@@ -11,13 +11,13 @@
 <script>
 // このコンポーネントは"PureTaskList"のコンテナ
 // 中身(PureTaskList)があってこそ機能するもの
-import PureTaskList from "./PureTaskList";
-import { mapState, mapActions } from "vuex";
+import PureTaskList from './PureTaskList'
+import { mapState, mapActions } from 'vuex'
 
 export default {
-  name: "TaskList",
+  name: 'TaskList',
   components: { PureTaskList },
-  methods: mapActions(["archiveTask", "pinTask"]),
-  computed: mapState(["tasks"]),
-};
+  computed: mapState(['tasks']),
+  methods: mapActions(['archiveTask', 'pinTask'])
+}
 </script>
