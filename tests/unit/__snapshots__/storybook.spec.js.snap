@@ -12,7 +12,7 @@ exports[`Storyshots PureInboxScreen Default 1`] = `
         <span
           class="title-wrapper"
         >
-          Taskbox
+          タスク一覧
         </span>
       </h1>
     </nav>
@@ -43,9 +43,8 @@ exports[`Storyshots PureInboxScreen Default 1`] = `
           class="title"
         >
           <input
-            placeholder="Input title"
+            placeholder="タイトルを入力してください"
             readonly="readonly"
-            style="text-overflow: ellipsis;"
             type="text"
           />
         </div>
@@ -81,9 +80,8 @@ exports[`Storyshots PureInboxScreen Default 1`] = `
           class="title"
         >
           <input
-            placeholder="Input title"
+            placeholder="タイトルを入力してください"
             readonly="readonly"
-            style="text-overflow: ellipsis;"
             type="text"
           />
         </div>
@@ -119,9 +117,8 @@ exports[`Storyshots PureInboxScreen Default 1`] = `
           class="title"
         >
           <input
-            placeholder="Input title"
+            placeholder="タイトルを入力してください"
             readonly="readonly"
-            style="text-overflow: ellipsis;"
             type="text"
           />
         </div>
@@ -157,9 +154,8 @@ exports[`Storyshots PureInboxScreen Default 1`] = `
           class="title"
         >
           <input
-            placeholder="Input title"
+            placeholder="タイトルを入力してください"
             readonly="readonly"
-            style="text-overflow: ellipsis;"
             type="text"
           />
         </div>
@@ -195,9 +191,8 @@ exports[`Storyshots PureInboxScreen Default 1`] = `
           class="title"
         >
           <input
-            placeholder="Input title"
+            placeholder="タイトルを入力してください"
             readonly="readonly"
-            style="text-overflow: ellipsis;"
             type="text"
           />
         </div>
@@ -233,9 +228,8 @@ exports[`Storyshots PureInboxScreen Default 1`] = `
           class="title"
         >
           <input
-            placeholder="Input title"
+            placeholder="タイトルを入力してください"
             readonly="readonly"
-            style="text-overflow: ellipsis;"
             type="text"
           />
         </div>
@@ -270,13 +264,13 @@ exports[`Storyshots PureInboxScreen Error 1`] = `
       <div
         class="title-message"
       >
-        Oh no!
+        無念...
       </div>
        
       <div
         class="subtitle-message"
       >
-        Something went wrong
+        エラーが発生しました。
       </div>
     </div>
   </div>
@@ -313,7 +307,7 @@ exports[`Storyshots PureTaskList Default 1`] = `
         class="title"
       >
         <input
-          placeholder="Input title"
+          placeholder="タイトルを入力してください"
           readonly="readonly"
           type="text"
         />
@@ -350,7 +344,7 @@ exports[`Storyshots PureTaskList Default 1`] = `
         class="title"
       >
         <input
-          placeholder="Input title"
+          placeholder="タイトルを入力してください"
           readonly="readonly"
           type="text"
         />
@@ -387,7 +381,7 @@ exports[`Storyshots PureTaskList Default 1`] = `
         class="title"
       >
         <input
-          placeholder="Input title"
+          placeholder="タイトルを入力してください"
           readonly="readonly"
           type="text"
         />
@@ -424,7 +418,7 @@ exports[`Storyshots PureTaskList Default 1`] = `
         class="title"
       >
         <input
-          placeholder="Input title"
+          placeholder="タイトルを入力してください"
           readonly="readonly"
           type="text"
         />
@@ -461,7 +455,7 @@ exports[`Storyshots PureTaskList Default 1`] = `
         class="title"
       >
         <input
-          placeholder="Input title"
+          placeholder="タイトルを入力してください"
           readonly="readonly"
           type="text"
         />
@@ -498,7 +492,7 @@ exports[`Storyshots PureTaskList Default 1`] = `
         class="title"
       >
         <input
-          placeholder="Input title"
+          placeholder="タイトルを入力してください"
           readonly="readonly"
           type="text"
         />
@@ -535,13 +529,13 @@ exports[`Storyshots PureTaskList Empty 1`] = `
       <div
         class="title-message"
       >
-        You have no tasks
+        タスクはありません。
       </div>
        
       <div
         class="subtitle-message"
       >
-        Sit back and relax
+        やったね！
       </div>
     </div>
      
@@ -567,34 +561,15 @@ exports[`Storyshots PureTaskList Loading 1`] = `
         class="glow-text"
       >
         <span>
-          Loading
+          タダイマ
         </span>
+         
         <span>
-          cool
+          ヨミコミチュウ
         </span>
+         
         <span>
-          state
-        </span>
-      </span>
-    </div>
-    <div
-      class="loading-item"
-    >
-      <span
-        class="glow-checkbox"
-      />
-       
-      <span
-        class="glow-text"
-      >
-        <span>
-          Loading
-        </span>
-        <span>
-          cool
-        </span>
-        <span>
-          state
+          デス
         </span>
       </span>
     </div>
@@ -609,34 +584,15 @@ exports[`Storyshots PureTaskList Loading 1`] = `
         class="glow-text"
       >
         <span>
-          Loading
+          タダイマ
         </span>
+         
         <span>
-          cool
+          ヨミコミチュウ
         </span>
+         
         <span>
-          state
-        </span>
-      </span>
-    </div>
-    <div
-      class="loading-item"
-    >
-      <span
-        class="glow-checkbox"
-      />
-       
-      <span
-        class="glow-text"
-      >
-        <span>
-          Loading
-        </span>
-        <span>
-          cool
-        </span>
-        <span>
-          state
+          デス
         </span>
       </span>
     </div>
@@ -651,13 +607,15 @@ exports[`Storyshots PureTaskList Loading 1`] = `
         class="glow-text"
       >
         <span>
-          Loading
+          タダイマ
         </span>
+         
         <span>
-          cool
+          ヨミコミチュウ
         </span>
+         
         <span>
-          state
+          デス
         </span>
       </span>
     </div>
@@ -672,13 +630,61 @@ exports[`Storyshots PureTaskList Loading 1`] = `
         class="glow-text"
       >
         <span>
-          Loading
+          タダイマ
         </span>
+         
         <span>
-          cool
+          ヨミコミチュウ
         </span>
+         
         <span>
-          state
+          デス
+        </span>
+      </span>
+    </div>
+    <div
+      class="loading-item"
+    >
+      <span
+        class="glow-checkbox"
+      />
+       
+      <span
+        class="glow-text"
+      >
+        <span>
+          タダイマ
+        </span>
+         
+        <span>
+          ヨミコミチュウ
+        </span>
+         
+        <span>
+          デス
+        </span>
+      </span>
+    </div>
+    <div
+      class="loading-item"
+    >
+      <span
+        class="glow-checkbox"
+      />
+       
+      <span
+        class="glow-text"
+      >
+        <span>
+          タダイマ
+        </span>
+         
+        <span>
+          ヨミコミチュウ
+        </span>
+         
+        <span>
+          デス
         </span>
       </span>
     </div>
@@ -717,7 +723,7 @@ exports[`Storyshots PureTaskList With Pinned Tasks 1`] = `
         class="title"
       >
         <input
-          placeholder="Input title"
+          placeholder="タイトルを入力してください"
           readonly="readonly"
           type="text"
         />
@@ -754,7 +760,7 @@ exports[`Storyshots PureTaskList With Pinned Tasks 1`] = `
         class="title"
       >
         <input
-          placeholder="Input title"
+          placeholder="タイトルを入力してください"
           readonly="readonly"
           type="text"
         />
@@ -791,7 +797,7 @@ exports[`Storyshots PureTaskList With Pinned Tasks 1`] = `
         class="title"
       >
         <input
-          placeholder="Input title"
+          placeholder="タイトルを入力してください"
           readonly="readonly"
           type="text"
         />
@@ -828,7 +834,7 @@ exports[`Storyshots PureTaskList With Pinned Tasks 1`] = `
         class="title"
       >
         <input
-          placeholder="Input title"
+          placeholder="タイトルを入力してください"
           readonly="readonly"
           type="text"
         />
@@ -865,7 +871,7 @@ exports[`Storyshots PureTaskList With Pinned Tasks 1`] = `
         class="title"
       >
         <input
-          placeholder="Input title"
+          placeholder="タイトルを入力してください"
           readonly="readonly"
           type="text"
         />
@@ -902,7 +908,7 @@ exports[`Storyshots PureTaskList With Pinned Tasks 1`] = `
         class="title"
       >
         <input
-          placeholder="Input title"
+          placeholder="タイトルを入力してください"
           readonly="readonly"
           type="text"
         />
@@ -944,7 +950,7 @@ exports[`Storyshots Task Archived 1`] = `
     class="title"
   >
     <input
-      placeholder="Input title"
+      placeholder="タイトルを入力してください"
       readonly="readonly"
       type="text"
     />
@@ -980,49 +986,8 @@ exports[`Storyshots Task Default 1`] = `
     class="title"
   >
     <input
-      placeholder="Input title"
+      placeholder="タイトルを入力してください"
       readonly="readonly"
-      type="text"
-    />
-  </div>
-   
-  <div
-    class="actions"
-  >
-    <a>
-      <span
-        class="icon-star"
-      />
-    </a>
-  </div>
-</div>
-`;
-
-exports[`Storyshots Task Long Title 1`] = `
-<div
-  class="list-item TASK_INBOX"
->
-  <label
-    class="checkbox"
-  >
-    <input
-      disabled="disabled"
-      name="checked"
-      type="checkbox"
-    />
-     
-    <span
-      class="checkbox-custom"
-    />
-  </label>
-   
-  <div
-    class="title"
-  >
-    <input
-      placeholder="Input title"
-      readonly="readonly"
-      style="text-overflow: ellipsis;"
       type="text"
     />
   </div>
@@ -1061,7 +1026,7 @@ exports[`Storyshots Task Pinned 1`] = `
     class="title"
   >
     <input
-      placeholder="Input title"
+      placeholder="タイトルを入力してください"
       readonly="readonly"
       type="text"
     />
