@@ -14,10 +14,10 @@ export default new Vuex.Store({
   },
   mutations: {
     ARCHIVE_TASK(state, id) {
-      state.tasks.find(task => task.id === id).state = 'TASK_ARCHIVED'
+      state.tasks.find((task) => task.id === id).state = 'TASK_ARCHIVED'
     },
     PIN_TASK(state, id) {
-      state.tasks.find(task => task.id === id).state = 'TASK_PINNED'
+      state.tasks.find((task) => task.id === id).state = 'TASK_PINNED'
     }
   },
   actions: {
