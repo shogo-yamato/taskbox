@@ -10,7 +10,7 @@
         :value="task.title"
         readonly
         placeholder="タイトルを入力してください"
-        style="background-color: pink"
+        style="background-color: red"
       />
     </div>
     <div class="actions">
